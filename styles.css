@@ -58,6 +58,7 @@
     height: 17px;
     background: white;
     border-radius: 50%;
+    transition: 200ms;
   }
 
   #sentimentSlider::-webkit-slider-thumb:hover{
