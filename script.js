@@ -36,6 +36,7 @@ fetch(faRSS)
                 console.log(response);
                 console.log(`Score: ${score}`);
                 console.log(`Ratio: ${ratio}`);
+                sentimentSlider.value = map(ratio, -1,1,1,1000);
                 goLive.onclick = function() {
                     ratio = response.ratio;
                     sentimentSlider.value = map(ratio, -1, 1, 1, 1000);
