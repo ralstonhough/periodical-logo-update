@@ -45,7 +45,7 @@ fetch(faRSS)
     });
 
 function setup() {
-    createCanvas(350, 820);
+    createCanvas(350, innerHeight);
     background('white');
 };
 
